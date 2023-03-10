@@ -1,0 +1,83 @@
+
+
+
+.sectionLogin{
+    height: calc(100vh - 50px);
+     
+    /* background-color: blue; */
+/*     height: 100vh;
+ */    display: flex;
+}
+
+.sectionLogin .container{
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 350px;
+    border: 1px solid #dee2e6;
+}
+
+#form-login .formGroup{
+/*     background: gray;
+ */    margin-bottom: 10px;
+
+}
+
+
+/* display block para ocupar 100% do espaço */
+/* label precisa disso, o input o display block ñ funciona
+e o width:100% sim */
+#form-login .formGroup label{ 
+/*     background: yellow;*/    
+    display: block;
+    font-weight: bold;
+
+}
+
+#form-login .formGroup input{ 
+/*     background: red;
+ */    width: 100%;
+    /* como o espaço está maior que o espaço do box
+    vamos usar o box-sizing para ajustar
+    assim, todas as bordas e todos os paddings 
+    serão colocados dentro do elemento */
+    box-sizing: border-box;
+    border-radius: 4px;
+    height: 30px;
+    border: 1px solid #ced4da;
+}
+
+.btn{
+    height: 40px;
+    width: 100%;
+    
+}
+
+.btn.btn-dark{
+    background-color: #1e2125;
+    color: white/* #ced4da */;
+    border: 0px;
+    border-radius: 4px;
+
+}
+
+.alert{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.alert.alert-error{
+    color: #842029;
+    background-color: #f8d7da;
+    border-color: #f5c2c7;
+
+}
+
+.hide{
+    display: none;
+}
+

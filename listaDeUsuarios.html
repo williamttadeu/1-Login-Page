@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/listaDeUsuarios.css">
+    <link rel="stylesheet" href="CSS/layout.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- NAVBAR -INIT   -->
+    <nav class="main-nav">
+
+        <div class="container">
+            <span>
+                Login System
+            </span>
+
+            <div class="links">
+                <!-- vamos criar um ID ao inves da classe
+                Pq só vamos ter um item desse -->
+                <span id="userLogged">
+                    <!-- emaildousuario@gmail.com -->
+                </span>
+                <a href="#" id="logout">
+                    Sair
+                </a>
+            </div>
+
+        </div>
+
+    </nav>
+<!-- NAVBAR -END   -->
+
+<!-- USER LIST INIT -->
+    <section class="userList">
+        <div class="container">
+            <table id="userTable">
+                <thead>
+                    <tr>
+                        <th>E-mail</th>
+                        <th>Name</th>
+                        <th>View</th>
+                    </tr>
+
+                    <tbody>
+                     
+                    </tbody>       
+                </thead>
+            </table>
+        </div>
+        
+    </section>
+
+    <h1>
+        
+    </h1>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" 
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" 
+    crossorigin="anonymous">
+    </script>
+    
+    <script src="js/usersList.js"></script>
+    <script src="js/listaDeUsusarios.js"></script>
+    <script src="js/detalharUsuario.js"></script>
+    <script src="js/shared.js"></script>
+</body>
+</html>

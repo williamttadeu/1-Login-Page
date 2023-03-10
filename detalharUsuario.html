@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/detalharUsuario.css">
+</head>
+<body>
+    <!-- INIT NAV BAR -->
+    <nav class="main-nav">
+
+        <div class="container">
+            <span>
+                Login System
+            </span>
+
+            <div class="links">
+                <!-- vamos criar um ID ao inves da classe
+                Pq só vamos ter um item desse -->
+                <span id="userLogged">
+                    <!-- emaildousuario@gmail.com -->
+                </span>
+
+                <a href="listaDeUsuarios.html">
+                    Dashboard
+                </a>
+
+                <a href="#" id="logout">
+                    Sair
+                </a>
+            </div>
+
+        </div>
+
+    </nav>
+    <!-- END NAV BAR -->
+
+    <section>
+        
+        <div class="container">
+            <h1 id="nome">
+                Nome
+            </h1>
+            
+            <div class="details">
+                <div class="details-group">
+                    <span class="label">E-mail:</span>
+                    <span id="email" class="value">EMAILDOUSUARIO</span>
+                </div>
+
+                <div class="details-group">
+                    <span class="label">Telefone:</span>
+                    <span id="telefone" class="value">TELEFONEDOUSUARIO</span>
+                </div>
+
+                <div class="details-group">
+                    <span class="label">Cargo:</span>
+                    <span id="cargo" class="value">CARGODOUSUARIO</span>
+                </div>
+            </div>
+
+        </div>
+        
+    </section>
+    
+
+
+    
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" 
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" 
+    crossorigin="anonymous">
+    </script>
+    <script src="js/detalharUsuario.js"></script>
+    <script src="js/shared.js"></script>
+</body>
+</html>
