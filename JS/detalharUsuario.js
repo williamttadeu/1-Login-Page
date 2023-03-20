@@ -12,8 +12,7 @@ function mostrarDadosUsuario(){
     var searchParams = new URLSearchParams(window.location.search);
     //para pegar o e-mail, basta colocar a chave
     var emailDoUsuario = searchParams.get("email");
-    console.log(emailDoUsuario)
-
+    
     //a Linha abaixo é quando o e-mail era colocado na mão
     //var emailDoUsuario = 'emailum@mail.com';
 
@@ -28,8 +27,8 @@ function mostrarDadosUsuario(){
         $("#cargo").html(usuarioEncontrado.role);
         
     } else{
-        //alert("E-mail inválido, por favor tente novamente");
-        //document.location = 'listaDeUsuarios.html';
+        alert("E-mail inválido, por favor tente novamente");
+        document.location = 'listaDeUsuarios.html';
     }
 
     //console.log(usuarioEncontrado)
